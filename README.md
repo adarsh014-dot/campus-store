@@ -9,6 +9,8 @@
 Inventory for a college central store: what is held, what has been issued to which department or
 laboratory, and what has fallen below its reorder level.
 
+**[Live demo →](https://adarsh014-dot.github.io/campus-store/)**
+
 ## The design decision that matters
 
 **Stock is a ledger, not a number.** The quantity column is a cached balance; every change is an
