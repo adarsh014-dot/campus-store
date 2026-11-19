@@ -3,7 +3,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-schema%20included-4169E1?logo=postgresql&logoColor=white)
-![tests](https://img.shields.io/badge/tests-17%20passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-20%20passing-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
 Inventory for a college central store: what is held, what has been issued to which department or
@@ -54,7 +54,7 @@ clock read except an injected `at` — which is why the whole thing is unit-test
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # typecheck + production build
-npm test         # 17 unit tests
+npm test         # 20 unit tests
 ```
 
 ## Layout
@@ -64,6 +64,7 @@ src/
   lib/types.ts        domain types (mirrors the Postgres tables)
   lib/store.ts        pure stock logic: issue / return / receive, low-stock, aggregates
   lib/store.test.ts   17 tests: bounds, validation, immutability, low-stock transitions
+  App.test.tsx        3 render tests: the storefront mounts and falls back to seed data
   lib/seed.ts         demo catalogue — 12 items, 5 departments and labs
   App.tsx             UI: inventory, issue form, low-stock panel, ledger
 db/
