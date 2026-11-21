@@ -1,5 +1,10 @@
 # Campus Store
 
+> **Learning project.** Built with AI assistance as a study exercise to explore ledger design.
+>
+> Not production code — this is a study project, and the README documents what I learned.
+
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-schema%20included-4169E1?logo=postgresql&logoColor=white)
